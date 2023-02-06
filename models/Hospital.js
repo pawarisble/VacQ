@@ -16,7 +16,7 @@ const HospitalSchema = new mongoose.Schema({
         type: String,
         require: [true, 'Please add a district']
     },
-    provine: {
+    province: {
         type: String,
         require: [true, 'Please add a province']
     },
